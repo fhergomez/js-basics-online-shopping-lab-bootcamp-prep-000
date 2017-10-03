@@ -35,7 +35,7 @@ function viewCart() {
       itemsAndPrices = itemsAndPrices.join(" and ");
     break;
     default:
-    itemsAndPrices[cart.length-1] = "and ".concat(itemsAndPrices[l-1]);
+    itemsAndPrices[cart.length-1] = "and ".concat(itemsAndPrices[cart.length-1]);
     itemsAndPrices = itemsAndPrices.join(", ");
   }
 }
