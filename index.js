@@ -59,7 +59,7 @@ function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     if (cart[i].hasOwnProperty(item)){
       itemInCart = true;
-      cart = cart.slice(0,i).concat(cart.slice i+1);
+      cart = cart.slice(0,i).concat(cart.slice(i+1));
     }
   }
 }
