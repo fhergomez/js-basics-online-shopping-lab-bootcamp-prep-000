@@ -76,7 +76,7 @@ function placeOrder(cardNumber) {
     return false;
   }
 
-  console.log(`Your total cost is $${total()}, whick will be charged o the card $(CardNumber).`);
+  console.log(`Your total cost is $${total()}, which will be charged o the card $(CardNumber).`);
 
   cart = [];
 }
