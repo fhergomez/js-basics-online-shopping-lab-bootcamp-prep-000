@@ -38,6 +38,7 @@ function viewCart() {
     itemsAndPrices[cart.length-1] = "and ".concat(itemsAndPrices[cart.length-1]);
     itemsAndPrices = itemsAndPrices.join(", ");
   }
+  console.log(`In your cart, you have ${itemsAndPrices}.`);
 }
 
 function total() {
