@@ -56,11 +56,11 @@ function removeFromCart(item) {
   // write your code here
   let itemInCart = false;
 
-  for (let i = 0; i < cart.length; i++) {
+  for (let i = 0, l=cart.length; i < l; i++) {
     if (cart[i].hasOwnProperty(item)){
       itemInCart = true;
       cart = cart.slice(0,i).concat(cart.slice(i+1));
-      cart.length--;
+      l--;
     }
   }
   if (!itemInCart) {
